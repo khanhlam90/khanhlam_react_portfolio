@@ -6,7 +6,7 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #F3A847;
+  --secondary: #141694;
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #000000;
@@ -92,9 +92,9 @@ a {
   font-weight: bold;
 }
 
-a:hover {
+/* a:hover {
   text-decoration: underline;
-}
+} */
 
 header {
   background: var(--grey);
@@ -114,7 +114,7 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  background-color: var(--blue);
 }
 
 button:hover {
@@ -158,10 +158,12 @@ li {
 
 nav a:hover {
   text-decoration: none;
+  
 }
 
 nav  li {
   cursor: pointer;
+  padding: 0 15px;
 }
 
 textarea {
@@ -181,6 +183,7 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .space-between {
@@ -237,8 +240,13 @@ textarea {
 }
 
 .card {
-  width: 25%;
+  width: 20%;
   text-align: center;
+  padding: 10px;
+  margin: 0 20px 30px 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #cccccc;
 }
 
 .img-thumbnail {
@@ -275,7 +283,7 @@ textarea {
 }
 
 button {
-	background: var(--primary);
+	background: var(--blue);
 	border: 0;
 	border-radius: 5px;
 	color: #fff;
@@ -288,7 +296,7 @@ button {
 
 a {
 	border-radius: 5px;
-	color: var(--blue);
+	color: var(--dark);
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
@@ -297,7 +305,7 @@ a {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: var(--blue);
 }
 
 #avatar {
@@ -313,4 +321,93 @@ footer p {
   text-decoration: none;
   color: var(--blue);
 ;
+}
+
+.contact-me {
+  font-size: 30px;
+}
+
+#contact-form {
+  margin-top: 20px;
+
+}
+
+.form-item {
+  margin-bottom: 15px ;
+
+}
+
+.form-item label {
+  padding-right: 15px;
+}
+
+.error-text {
+  color: var(--tertiary);
+}
+
+.skill, 
+.resume {
+  margin-bottom: 45px;
+}
+
+.skill ul {
+  border-radius: 15px;
+  width: 50%;
+}
+
+.skill ul li {
+  font-weight: normal;
+  padding: 15px 0;
+}
+
+.resume h1 {
+  margin-bottom: 20px;
+}
+
+.main-name {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.card-item {
+  width:100%;
+  text-align: center;
+  /* margin: 5px 0; */
+}
+
+.port-img {
+  height: 10rem;
+  width: 20rem;
+}
+
+.port-desc{
+  font-size: 17px;
+  line-height: 1.35;
+  
+}
+
+.port-link {
+	background: var(--blue);
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 5px;
+	padding: 5px 5px;	
+  text-decoration: none;
+}
+
+.nav-main{
+  background-color: var(--grey);
+  padding: 15px 0;
+
+}
+
+footer p {
+  padding: 10px 0;
+  margin-bottom: 15px;
+
 }

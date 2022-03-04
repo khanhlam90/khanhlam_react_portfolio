@@ -10,7 +10,7 @@ const projects = [
     },
     {
         name: 'Photographer',
-        description: 'Studio/Wedding/Event Professional Photography',
+        description: 'Studio, Wedding, Event Professional Photography',
         link: "https://www.linkedin.com/in/khanh-lam-739b25172",
         repo: "https://github.com/khanhlam90"
     },
@@ -52,7 +52,7 @@ const projects = [
     },
     {
         name: 'Task Master Pro',
-        description: 'JQuery, Javascript, HTML with Bootstrap vs CSS, DOM',
+        description:'JQuery, Javascript, HTML with Bootstrap vs CSS, DOM',
         link: "https://khanhlam90.github.io/taskmaster-pro/",
         repo: "https://github.com/khanhlam90/taskmaster-pro.git"
     },
@@ -193,7 +193,7 @@ const projects = [
 function Portfolio() {
     return (
       <div>
-        <p className="">Portfolio</p>
+        <h1>Portfolio</h1>
         
         <Project projects={projects} />
 

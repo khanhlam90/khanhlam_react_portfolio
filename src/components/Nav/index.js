@@ -5,12 +5,12 @@ function Navigation(props) {
     const tabs = ["About", "Portfolio", "Contact", "Resume"];
     
     return (
-        <div className="tabs is-centered">
-            <ul className="nav nav-tabs">
+        <nav>
+            <ul className="flex-row">
                 {tabs.map((tab) => (
                 <li
                     className={
-                    props.currentPage === tab ? "nav-item is-active" : "nav-item"
+                    props.currentPage === tab ? "mx-5 navActive" : "mx-5"
                     }
                     key={tab}
                 >
@@ -20,7 +20,7 @@ function Navigation(props) {
                     // the current page is set through the handlePageChange props.
                     onClick={() => props.handlePageChange(tab)}
                     className={
-                        props.currentPage === tab ? "nav-link active" : "nav-link"
+                        props.currentPage === tab ? "mx-5 navActive" : "mx-5"
                     }
                     >
                     {tab}
@@ -28,7 +28,7 @@ function Navigation(props) {
                 </li>
                 ))}
             </ul>
-        </div>
+        </nav>
     );
 }
 

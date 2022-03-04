@@ -40,30 +40,30 @@ function ContactForm() {
   };
 
   return (
-    <div>
-      <p className="">Contact Me</p>
+    <section>
+      <h1 className="contact-me" >Contact Me</h1>
       
-      <form id="" onSubmit={handleSubmit}>
-        <div className="">
-          <label className="" htmlFor="name">Name</label>
-          <input className="" type="text" name="name" defaultValue={name} onBlur={handleChange} />
+      <form id="contact-form" className="flex" onSubmit={handleSubmit}>
+        <div className="form-item">
+          <label htmlFor="name">Name</label>
+          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
         </div>
-        <div className="">
-          <label className="" htmlFor="email">Email Address</label>
-          <input className="" type="email" name="email" defaultValue={email} onBlur={handleChange} />
+        <div className="form-item">
+          <label htmlFor="email">Email Address</label>
+          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
         </div>
-        <div className="">
-          <label className="" htmlFor="message">Message</label>
-          <textarea className="" name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+        <div className="form-item">
+          <label htmlFor="message">Message</label>
+          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>
         {errorMessage && (
           <div>
-            <p className="">{errorMessage}</p>
+            <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button className="" data-testid="" type="submit">Submit</button>
+        <button className="" data-testid="button" type="submit">Submit</button>
       </form>
-    </div>
+    </section>
   );
 }
 

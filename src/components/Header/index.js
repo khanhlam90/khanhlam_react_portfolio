@@ -30,21 +30,22 @@ function Header() {
 
   return (
     <div>
-        <nav className="">
-            <div className="">
+        <nav className="nav-main">
+            <div className="main-name">
                 <a
                     className=""
                     href="#about"
                 >
-                    <span className="">Khanh D. Lam</span>
+                    <span >Khanh D. Lam</span>
                 </a>
             </div>
-        </nav>
+        
         {/* Pass the state value and the setter as props to NavTabs */}
         <Navigation
             currentPage={currentPage}
             handlePageChange={handlePageChange}
         />
+        </nav>
 
       {/* {/* hero image could be here - future improvement */}
       {/* <img src={herobg} className="my-2" style={{ width: "100%"}} alt="hero" /> */}

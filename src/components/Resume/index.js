@@ -3,10 +3,10 @@ import resume from "../../assets/resume/klam-resume.png";
 
 function Resume() {
     return (
-        <div className="">
+        <div className="flex">
             
-            <div className="">
-                <p className="">Skills</p>
+            <div className="skill">
+                <h1 >Skills</h1>
     
                 <ul>
                     <li>HTML, CSS, Javascript,</li>
@@ -18,15 +18,15 @@ function Resume() {
                 </ul>
             </div>
 
-            <div className="">
-                <p>Resume</p>
+            <div className="resume">
+                <h1>Resume</h1>
                 <a
                     className=""
                     href={resume}
                     download
                     target="blank"
                 >
-                    <span>Download My Resume</span>
+                    <button>Download My Resume</button>
                 </a>
             </div>
         </div>

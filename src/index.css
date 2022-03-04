@@ -11,6 +11,8 @@ main {
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
+  --grey: rgba(194, 189, 189, 0.651);
+  --blue: rgb(69, 161, 241);
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -95,7 +97,8 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: var(--grey);
+  padding: 35px 0;
 }
 
 header a {
@@ -285,7 +288,7 @@ button {
 
 a {
 	border-radius: 5px;
-	color: var(--primary);
+	color: var(--blue);
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
@@ -301,4 +304,11 @@ a {
   border-radius: 50%;
   width: 20%;
   margin: 25px 0;
+}
+
+footer p {
+  text-align: center;
+  text-decoration: none;
+  color: var(--blue);
+;
 }

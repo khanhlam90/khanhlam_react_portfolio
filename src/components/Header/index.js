@@ -34,7 +34,7 @@ function Header() {
             <div className="">
                 <a
                     className=""
-                    href="/"
+                    href="#about"
                 >
                     <span className="">Khanh D. Lam</span>
                 </a>

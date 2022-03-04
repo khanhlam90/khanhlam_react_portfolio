@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/khanhlam_react_portfolio/static/css/main.b206f646.css",
-    "main.js": "/khanhlam_react_portfolio/static/js/main.f184d65c.js",
+    "main.css": "/khanhlam_react_portfolio/static/css/main.a9a7f065.css",
+    "main.js": "/khanhlam_react_portfolio/static/js/main.d734fe7a.js",
     "static/js/787.648c9663.chunk.js": "/khanhlam_react_portfolio/static/js/787.648c9663.chunk.js",
     "static/media/Photographer.png": "/khanhlam_react_portfolio/static/media/Photographer.bc6ecf39dfb5e44e08aa.png",
     "static/media/Pizza Hunt.png": "/khanhlam_react_portfolio/static/media/Pizza Hunt.2dc299303c2bd785fcc3.png",
@@ -36,12 +36,12 @@
     "static/media/Note Taker.png": "/khanhlam_react_portfolio/static/media/Note Taker.78991ffe143802ccff27.png",
     "static/media/Git It Done.png": "/khanhlam_react_portfolio/static/media/Git It Done.d2f60b3d2adb2a24af0f.png",
     "index.html": "/khanhlam_react_portfolio/index.html",
-    "main.b206f646.css.map": "/khanhlam_react_portfolio/static/css/main.b206f646.css.map",
-    "main.f184d65c.js.map": "/khanhlam_react_portfolio/static/js/main.f184d65c.js.map",
+    "main.a9a7f065.css.map": "/khanhlam_react_portfolio/static/css/main.a9a7f065.css.map",
+    "main.d734fe7a.js.map": "/khanhlam_react_portfolio/static/js/main.d734fe7a.js.map",
     "787.648c9663.chunk.js.map": "/khanhlam_react_portfolio/static/js/787.648c9663.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b206f646.css",
-    "static/js/main.f184d65c.js"
+    "static/css/main.a9a7f065.css",
+    "static/js/main.d734fe7a.js"
   ]
 }

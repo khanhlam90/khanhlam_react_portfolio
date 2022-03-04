@@ -304,8 +304,8 @@ a {
   border-radius: 50%;
   width: 18%;
   margin: 25px 0;
-  box-shadow: 12px 5px 15px 5px rgba(3, 3, 3, 0.2);
-  border: #000000;
+  box-shadow: 5px 5px 15px 5px rgba(3, 3, 3, 0.15);
+  border: 5px solid black;
 }
 
 footer p {

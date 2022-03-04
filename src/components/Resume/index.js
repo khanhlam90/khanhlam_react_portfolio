@@ -17,7 +17,7 @@ function Resume() {
             </div>
             <div className="">
                 <p className="">Skills</p>
-                <hr />
+    
                 <ul>
                     <li>HTML, CSS, Javascript,</li>
                     <li>JQuery, SQL, Sequalize, NoSQL, IndexedDB,</li>

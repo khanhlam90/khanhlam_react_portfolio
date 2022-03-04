@@ -5,6 +5,7 @@ import Contact from "../Contact";
 import Portfolio from "../Portfolio";
 import Resume from "../Resume";
 
+// for future, import the hero image
 // import herobg from '../../assets/cover/hero-bg.jpg';
 
 function Header() {

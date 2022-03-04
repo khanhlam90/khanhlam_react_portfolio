@@ -2,6 +2,7 @@ import React from 'react';
 import portrait from "../../assets/small/kl_portrait.jpg"
 
 
+
 function About() {
     return (
         <section className="container">

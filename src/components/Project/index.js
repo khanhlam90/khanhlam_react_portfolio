@@ -7,7 +7,7 @@ function Project({ project }) {
     return (
         <div className="project" key={name}>
             <img
-                src={require(`../../assets/projects/${name}.jpg`)}
+                src={require(`../../assets/projects/${name}.png`)}
                 alt={name}
                 className="project-bg"
             />

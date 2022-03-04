@@ -3,8 +3,6 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Resume from './components/Resume';
-import Portfolio from './components/Portfolio';
-import Project from './components/Project';
 
 function App() {
 
@@ -16,7 +14,7 @@ function App() {
       <main>
       <About></About>
       <Resume></Resume>
-      <Portfolio></Portfolio>
+      
       </main>
       <Footer />
     </div>

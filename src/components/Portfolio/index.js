@@ -16,7 +16,7 @@ function Portfolio() {
             repo: "https://github.com/khanhlam90"
         },
         {
-            name: 'run-buddy',
+            name: 'Run Buddy',
             description: 'HTML/CSS',
             link: "https://khanhlam90.github.io/run-buddy/",
             repo: "https://github.com/khanhlam90/run-buddy.git"

@@ -4,17 +4,7 @@ import resume from "../../assets/resume/klam-resume.png";
 function Resume() {
     return (
         <div className="">
-            <div className="">
-                <p>Resume</p>
-                <a
-                    className=""
-                    href={resume}
-                    download
-                    target="blank"
-                >
-                    <span>Download My Resume</span>
-                </a>
-            </div>
+            
             <div className="">
                 <p className="">Skills</p>
     
@@ -26,6 +16,18 @@ function Resume() {
                     <li>APIs REST / RESTFUL APIs</li>
                     <li>Repositories: Git</li>
                 </ul>
+            </div>
+
+            <div className="">
+                <p>Resume</p>
+                <a
+                    className=""
+                    href={resume}
+                    download
+                    target="blank"
+                >
+                    <span>Download My Resume</span>
+                </a>
             </div>
         </div>
     );

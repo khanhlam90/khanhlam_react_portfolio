@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/khanhlam_react_portfolio/static/css/main.a9a7f065.css",
-    "main.js": "/khanhlam_react_portfolio/static/js/main.0c3edbbc.js",
+    "main.js": "/khanhlam_react_portfolio/static/js/main.78d5746a.js",
     "static/js/787.648c9663.chunk.js": "/khanhlam_react_portfolio/static/js/787.648c9663.chunk.js",
     "static/media/Photographer.png": "/khanhlam_react_portfolio/static/media/Photographer.bc6ecf39dfb5e44e08aa.png",
     "static/media/SoCal Tanzanian Community.png": "/khanhlam_react_portfolio/static/media/SoCal Tanzanian Community.d7d49a4200d4cefb59eb.png",
@@ -38,11 +38,11 @@
     "static/media/Git It Done.png": "/khanhlam_react_portfolio/static/media/Git It Done.d2f60b3d2adb2a24af0f.png",
     "index.html": "/khanhlam_react_portfolio/index.html",
     "main.a9a7f065.css.map": "/khanhlam_react_portfolio/static/css/main.a9a7f065.css.map",
-    "main.0c3edbbc.js.map": "/khanhlam_react_portfolio/static/js/main.0c3edbbc.js.map",
+    "main.78d5746a.js.map": "/khanhlam_react_portfolio/static/js/main.78d5746a.js.map",
     "787.648c9663.chunk.js.map": "/khanhlam_react_portfolio/static/js/787.648c9663.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9a7f065.css",
-    "static/js/main.0c3edbbc.js"
+    "static/js/main.78d5746a.js"
   ]
 }

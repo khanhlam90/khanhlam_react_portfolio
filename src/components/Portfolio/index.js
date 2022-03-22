@@ -191,7 +191,7 @@ const projects = [
     {
         name: 'SoCal Tanzanian Community',
         description: 'React, Single-page application (SPA), reusable components and state within React components, pass props to child components, React Hooks, conditional rendering components, GraphQL Playground, GraphQL with a Node.js, Express.js server, MongoDB and the Mongoose ODM for the database, Stripe for payment submission',
-        link: "https://so-cal-community.herokuapp.com/",
+        link: "https://socal-tanzania-community.herokuapp.com/",
         repo: "https://github.com/nelsonRoberts1968/so_cal_web.git"
     },
 ]
